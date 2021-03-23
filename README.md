@@ -31,8 +31,7 @@ Give an example of an iteration in this program.
 Give an example of a list or collection in this program. What is saved in the list / collection?
 
 Answer- def chooseRandomMoveFromList(board, movesList):
- # Returns a valid move from the passed list on the passed board.
- # Returns None if there is no valid move.
+ 
  possibleMoves = []
  for i in movesList:
   if isSpaceFree(board, i):
