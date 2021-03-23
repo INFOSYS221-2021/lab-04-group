@@ -6,7 +6,7 @@ List three data types used in this program.
     Answer - interger, String, List
     
 List any value variables or reference variables in this program.
-    answer- i,dupeBoard,
+    answer- 
     
 Give an example of a sequence in this program.
 
@@ -30,12 +30,8 @@ Give an example of an iteration in this program.
               
 Give an example of a list or collection in this program. What is saved in the list / collection?
 
-Answer- def chooseRandomMoveFromList(board, movesList):
- 
- possibleMoves = []
- for i in movesList:
-  if isSpaceFree(board, i):
-   possibleMoves.append(i)
+Answer- movesLists
+      - contains a list of numbers from 1 - 9 which represents the position in the board.
    
 Give an example of a function that has at least one parameter in this program. And, briefly explain what the function is trying to achieve.
 
