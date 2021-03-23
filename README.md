@@ -28,12 +28,12 @@ Give an example of an iteration in this program.
               print('Do you want to be X or O?')
               letter = input().upper()
               
-Give an example of a list or collection in this program. What is saved in the list / collection?
+6. Give an example of a list or collection in this program. What is saved in the list / collection?
 
 Answer- movesLists
       - contains a list of numbers from 1 - 9 which represents the position in the board.
    
-Give an example of a function that has at least one parameter in this program. And, briefly explain what the function is trying to achieve.
+7. Give an example of a function that has at least one parameter in this program. And, briefly explain what the function is trying to achieve.
 
  def drawBoard(board):
    print('   |   |')
@@ -50,7 +50,7 @@ Give an example of a function that has at least one parameter in this program. A
  
  Where the function is trying to create the plate for the game
  
-How does the program determine who wins the game? List the functions that the program use to determine the winner.
+8. How does the program determine who wins the game? List the functions that the program use to determine the winner.
 
 def isWinner(bo, le):
 
@@ -63,10 +63,10 @@ def isWinner(bo, le):
  (bo[7] == le and bo[5] == le and bo[3] == le) or # diagonal
  (bo[9] == le and bo[5] == le and bo[1] == le)) # diagonal
 
-If the code on line 165 is changed from break to gameIsPlaying = False, will this change the behaviour of the program?
+9. If the code on line 165 is changed from break to gameIsPlaying = False, will this change the behaviour of the program?
                     
                     No it doesnt change the behaviour because having gameIsPlaying = False breaks the loop.
-What does while True: do in this program?
+10. What does while True: do in this program?
                     - Starts the game
 
 
