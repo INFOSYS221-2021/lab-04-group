@@ -48,7 +48,7 @@ Answer- movesLists
  print(' ' + board[1] + ' | ' + board[2] + ' | ' + board[3])
  print('   |   |')
  
- Where the function is trying to create the plate for the game
+ Where the function is trying to create the platform for the game
  
 8. How does the program determine who wins the game? List the functions that the program use to determine the winner.
 
@@ -65,7 +65,7 @@ def isWinner(bo, le):
 
 9. If the code on line 165 is changed from break to gameIsPlaying = False, will this change the behaviour of the program?
                     
-                    No it doesnt change the behaviour because having gameIsPlaying = False breaks the loop.
+                No it doesnt change the behaviour because having gameIsPlaying = False also breaks the loop.
 10. What does while True: do in this program?
                     - Starts the game
 
