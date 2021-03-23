@@ -56,10 +56,6 @@ Give an example of a function that has at least one parameter in this program. A
  Where the function is trying to create the plate for the game
  
 How does the program determine who wins the game? List the functions that the program use to determine the winner.
-If the code on line 165 is changed from break to gameIsPlaying = False, will this change the behaviour of the program?
-What does while True: do in this program?
-
-
 
 def isWinner(bo, le):
  # Given a board and a player’s letter, this function returns True if that player has won.
@@ -72,5 +68,13 @@ def isWinner(bo, le):
  (bo[9] == le and bo[6] == le and bo[3] == le) or # down the right side
  (bo[7] == le and bo[5] == le and bo[3] == le) or # diagonal
  (bo[9] == le and bo[5] == le and bo[1] == le)) # diagonal
+
+If the code on line 165 is changed from break to gameIsPlaying = False, will this change the behaviour of the program?
+No it doesnt change the behaviour because having gameIsPlaying = False breaks the loop.
+What does while True: do in this program?
+- Starts the game
+
+
+
  
 
